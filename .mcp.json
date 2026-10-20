@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "weavewords": {
+      "type": "http",
+      "url": "https://api.weavewords.org/mcp"
+    }
+  }
+}

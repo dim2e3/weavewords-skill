@@ -1,0 +1,4 @@
+# The learner's own log — personal, never committed.
+progress.md
+# Generated lessons are personal too; keep the sample plan only.
+lessons/*/*.json
