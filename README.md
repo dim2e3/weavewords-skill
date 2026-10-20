@@ -18,8 +18,8 @@ Works for English, German, Spanish, French, Polish, Russian and Ukrainian.
 1. Install [Claude Code](https://claude.com/claude-code).
 2. Clone the tutor and start Claude:
    ```bash
-   git clone https://github.com/weavewords/weavewords-tutor.git
-   cd weavewords-tutor
+   git clone https://github.com/dim2e3/weavewords-skill.git
+   cd weavewords-skill
    claude
    ```
    Approve the `weavewords` MCP server when asked.

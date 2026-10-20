@@ -18,8 +18,8 @@
 1. Установите [Claude Code](https://claude.com/claude-code).
 2. Склонируйте репозиторий и запустите Claude:
    ```bash
-   git clone https://github.com/weavewords/weavewords-tutor.git
-   cd weavewords-tutor
+   git clone https://github.com/dim2e3/weavewords-skill.git
+   cd weavewords-skill
    claude
    ```
    Подтвердите подключение MCP-сервера `weavewords`.
