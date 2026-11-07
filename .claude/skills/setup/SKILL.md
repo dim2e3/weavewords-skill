@@ -8,7 +8,7 @@ argument-hint: "[language] [level]"
 
 1. **Read the current `profile.md`** if it exists.
 2. **Check Weavewords.** Call `get_profile`.
-   - It works: use `nativeLanguage` and `learningLanguage` as defaults and note `pro` and `lessonsAvailable`.
+   - It works: use `nativeLanguage` and `learningLanguage` as defaults and note `pro`.
    - The tool is missing or says "authentication required": tell the learner to run `/mcp`, choose **weavewords** and press **Authenticate**, then sign in on the Weavewords page that opens and press **Allow**. Continue without it if they want; lessons still work locally.
 3. **Ask, one question per message** (skip anything already known or given as arguments):
    - target language. It must be one of the `supportedLanguages` from `get_profile`; Weavewords supports en, de, es, fr, pl, ru, uk;

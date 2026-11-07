@@ -1,6 +1,6 @@
 # Weavewords AI Tutor Skill
 
-[Українською](README.uk.md) · [По-русски](README.ru.md)
+[Deutsch](README.de.md) · [Español](README.es.md) · [Français](README.fr.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Українською](README.uk.md) · [По-русски](README.ru.md)
 
 This turns Claude Code into a personal language tutor in about 5 minutes. You don't need to code.
 
@@ -9,7 +9,7 @@ The tutor:
 - runs **the same 8-section lessons as the Weavewords app** (discovery, collocations, word formation, error detective, speaking…);
 - checks every answer;
 - remembers your mistakes;
-- keeps your **Weavewords** account in sync. New words go into your dictionary, chat quizzes update your spaced-repetition schedule, and lessons and XP show up in the app.
+- keeps your **Weavewords** account in sync. New words go into your dictionary, chat quizzes and lessons update your spaced-repetition schedule, and XP and your streak show up in the app.
 
 Works for English, German, Spanish, French, Polish, Russian and Ukrainian.
 
@@ -26,7 +26,7 @@ Works for English, German, Spanish, French, Polish, Russian and Ukrainian.
 3. Connect your account: run `/mcp`, choose **weavewords**, then **Authenticate**. The Weavewords page opens: sign in (or create an account) and press **Allow**.
 4. Run `/setup`, then `/plan-lessons`, then `/lesson`.
 
-Lessons work without connecting too. Saving words, chat reviews and saving lessons to the app need **Weavewords Pro**.
+Lessons work without connecting too. Saving words, chat reviews and saving lessons to your account need **Weavewords Pro**.
 
 ## Commands
 
@@ -43,7 +43,7 @@ Lessons work without connecting too. Saving words, chat reviews and saving lesso
 | `/story [topic]` | Graded reading built from your words |
 | `/write` | Writing with corrections |
 | `/mine-words` | Find words worth learning in any text |
-| `/replay-lesson` | Run a lesson from the Weavewords app here |
+| `/replay-lesson` | Replay a lesson saved to your account |
 | `/daily` | 10–15 minute daily routine |
 | `/progress` | Your progress and what to do next |
 

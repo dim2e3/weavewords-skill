@@ -1,6 +1,6 @@
 # Weavewords lesson method
 
-This is the method the Weavewords app uses to generate its 8-section vocabulary lessons, adapted for running a lesson live in chat. Every lesson skill (`/lesson`, `/discover`, `/collocations`, `/quiz`, `/word-forms`, `/error-detective`, `/speak`, `/replay-lesson`) follows it, so a lesson made here can be saved to Weavewords and replayed in the app.
+This is the method the Weavewords app uses to generate its 8-section vocabulary lessons, adapted for running a lesson live in chat. Every lesson skill (`/lesson`, `/discover`, `/collocations`, `/quiz`, `/word-forms`, `/error-detective`, `/speak`, `/replay-lesson`) follows it, so a lesson made here can be saved to your Weavewords account and replayed later with `/replay-lesson`.
 
 ## Goal
 

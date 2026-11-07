@@ -54,7 +54,7 @@ Plain requests work too: "let's study", "quiz me", "repeat lesson 3", "save thes
 
 ## Working with Weavewords
 
-- Call `get_profile` once per session and remember `pro`, `nativeLanguage`, `learningLanguage` and `lessonsAvailable`.
+- Call `get_profile` once per session and remember `pro`, `nativeLanguage` and `learningLanguage`.
 - If a Weavewords tool is missing or answers "authentication required", tell the learner to run `/mcp`, choose **weavewords** and **Authenticate**.
 - Saving words, recording reviews, `get_due_words` and saving/completing lessons need **Pro**.
   - On `PRO_REQUIRED`, don't stop. Run the activity from local files only, list the words that would have been saved, and mention the `upgradeUrl` once.

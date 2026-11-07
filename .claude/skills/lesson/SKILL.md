@@ -24,7 +24,7 @@ Follow `method/lesson-method.md` exactly. It defines the sections, the item coun
 
    Keep 8–12 in total. Show the list in one line and let the learner add or remove words.
 4. Generate the whole lesson in the `save_lesson` shape, with sections sized by the duration table and every target word tested by at least one graded item. Save it to `lessons/<lang>/NNN-<slug>.json`.
-5. If Pro and `lessonsAvailable`, call `save_lesson` and remember the `lessonId`. On `INVALID_LESSON`, fix the field and retry once.
+5. If Pro, call `save_lesson` and remember the `lessonId`. On `INVALID_LESSON`, fix the field and retry once.
 6. Append `- <date> Lesson NNN <topic>: started` to `progress.md`.
 
 ## 2. Teach
