@@ -6,7 +6,7 @@ argument-hint: "[number of lessons]"
 
 # /plan-lessons
 
-1. Read `profile.md`. If it's missing, run `/setup` first.
+1. Read `profile.md`. If it's missing, run `/setup` first. The profile is prefilled from the learner's Weavewords onboarding (languages, level, goal, interests), so build the plan from it as it stands; don't re-ask those.
 2. If Weavewords is connected (`get_profile` works), call `get_stats` and `list_words` with `sort=recent`, `limit=50` to see what the learner already has.
    - Don't plan words they already know well.
    - Plan to *use* known words inside the lessons rather than teach them again.

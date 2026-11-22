@@ -1,4 +1,4 @@
-# English A2 → B1 — course plan
+# English B2 → C1 — course plan
 
 <!-- Sample plan. /plan-lessons replaces it with one built for your profile. -->
 

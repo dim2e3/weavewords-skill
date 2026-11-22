@@ -1,6 +1,6 @@
 ---
 name: save-words
-description: Save words and phrases from a lesson or conversation to the learner's Weavewords dictionary (with translations, an example and a lesson tag) so they enter spaced-repetition review. Use after a lesson or when the learner says "save these words".
+description: Save words and phrases from a lesson or conversation to the learner's Weavewords dictionary (with translations, an example, part of speech, level and the "AI tutor" tag) so they enter spaced-repetition review. Use after a lesson or when the learner says "save these words".
 argument-hint: "[words…]"
 ---
 
@@ -13,10 +13,15 @@ argument-hint: "[words…]"
 5. Call `add_words` once:
    - `language` = the target language code;
    - `collectionName` = the plan's course name or "AI Tutor · <Language>" (the server default);
-   - `tags` = `["Lesson NNN: <topic>"]` when this came from a lesson;
-   - `words` = `[{word, translation: [1–3 translations in the native language], examples: [the sentence from the lesson], explanation: a short usage note}]`.
+   - `tags` = `["AI tutor"]` always, for every save, whether the words came from a lesson or a conversation. Use this one tag only: never create per-lesson tags such as "Lesson 001: …";
+   - `words` = `[{word, translation: [1–3 translations in the native language], examples: [the sentence from the lesson], explanation: a short usage note, partOfSpeech, level, usageType}]`.
+   - Always fill the three classification fields, so the word shows them in the app:
+     - `partOfSpeech`: `noun`, `verb`, `adjective`, `adverb`, `preposition`, `pronoun`, `conjunction`, `interjection` or `article`. Leave it out for set phrases and collocations.
+     - `level`: the word's CEFR level (A1–C2). If unsure, use the learner's level from `profile.md`.
+     - `usageType`: `formal`, `informal`, `slang`, `literary`, `academic` or `technical`. Leave it out for neutral words.
+   - Show these three next to each word in step 4, so the learner can correct them before saving.
 6. Report: N saved, M already there, and any failures with their reasons. Mention that the words now appear in Weavewords reviews (web and Android) after sync.
-7. Append to `progress.md`: `  - saved to Weavewords: N words, tag "…"`.
+7. Append to `progress.md`: `  - saved to Weavewords: N words, tag "AI tutor"`.
 
 Errors:
 - `PRO_REQUIRED`: print the list as a table they can copy, mention the `upgradeUrl` once, and continue.

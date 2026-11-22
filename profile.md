@@ -3,10 +3,10 @@
 <!-- Filled in by /setup. You can edit it by hand too. -->
 
 - **Target language:** English (en)
-- **Native language:** Ukrainian (uk)
-- **Explanation language:** Ukrainian
-- **Level (CEFR):** A2
+- **Native language:** Russian (ru)
+- **Explanation language:** Russian
+- **Level (CEFR):** C1
 - **Goal:** speak confidently when travelling and at work
-- **Interests:** travel, food, technology
+- **Interests:** travel, technology
 - **Lesson length:** 15 minutes
 - **Save words to Weavewords:** yes
